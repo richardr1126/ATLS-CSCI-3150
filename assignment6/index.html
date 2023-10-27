@@ -8,6 +8,10 @@
     <h1>Favorite Rush Album</h1>
     <p>My favorite Rush album right now is Power Windows. It is a great album!</p>
     <img src="https://upload.wikimedia.org/wikipedia/en/e/e2/Rush_Power_Windows.jpg" alt="Power Windows by Rush Album Cover" width="200" height="200">
+    <div class="links">
+      <a href="https://en.wikipedia.org/wiki/Power_Windows_(album)">Learn more about the album</a>
+      <a href="https://open.spotify.com/album/4g5nPCL3oFaJB0402Kedm8?si=Lib-OM6OT0C8e9Tv5C2UYA">Listen on Spotify</a>
+    </div>
   </body>
 </html>
 
@@ -44,6 +48,22 @@
 
   img {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+  }
+
+  a {
+    padding: 0.25rem;
+  }
+
+  .links {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 1rem;
     border-radius: 5px;
   }
 </style>
